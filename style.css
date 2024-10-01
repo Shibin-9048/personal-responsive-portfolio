@@ -1,0 +1,232 @@
+/* style.css */
+/* navbar section */
+.navbar-brand{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    
+}
+.img{
+    height: 50px;
+    width: 150px;
+}
+
+
+/* header section */
+.header-section {
+    padding: 60px 0;
+    background-color:#06142c;
+}
+
+.header-section .greeting {
+    color: #ffc107;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.header-section p {
+    color: #ccc;
+    margin-bottom: 30px;
+    max-width: 460px;
+    font-size: large;
+    line-height: 30px;
+    font-family: "Pacifico", cursive;
+}
+
+.header-section img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #e0a800;
+}
+h1{
+    font-family: "Inconsolata", monospace;
+}
+
+#username{
+    overflow: hidden;
+    font-size: 3.6rem;
+    color: white;
+    font-weight: 700;
+    border-right: 0.15em solid #06142c;
+    white-space: nowrap;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 20px;
+    animation: typing 4s steps(40,end)infinite;
+
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+    width: 100%;
+    }
+}
+
+/* Custom CSS for About Section */
+.about-section {
+    background-color: black;
+    padding: 50px 0;
+    color: white;
+}
+#username1{
+    overflow: hidden;
+    font-size: 2.6rem;
+    font-weight: 700;
+    border-right: 0.15em solid black;
+    white-space: nowrap;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 20px;
+    animation: typing 4s steps(40,end)infinite;
+
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-family: "Inconsolata", monospace;
+}
+.about-images img {
+    width: 420px;
+    margin-bottom: 20px;
+}
+/* project section */
+#projects{
+    background-color: #222222;
+}
+.username2{
+    overflow: hidden;
+    color: rgb(250, 248, 248);
+    font-size: 2.6rem;
+    font-weight: 700;
+    border-right: 0.15em solid #222222;
+    white-space: nowrap;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 20px;
+    animation: typing 4s steps(40,end)infinite;
+}
+#color{
+    color: white;
+    font-family: "Inconsolata", monospace;
+}
+/* skill */
+.skills-section {
+    background-color: black;
+    padding: 50px 0;
+}
+.username4{
+    overflow: hidden;
+    color: rgb(250, 248, 248);
+    font-size: 2.6rem;
+    font-weight: 700;
+    border-right: 0.15em solid black;
+    white-space: nowrap;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 20px;
+    animation: typing 4s steps(40,end)infinite;
+}
+.skill-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e9eed7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skills-icon {
+    font-size: 40px;
+    color: #007bff;
+}
+
+/* contact */
+#contact{
+    background-color: #222222;
+}
+#label{
+    color: rgb(241, 240, 240);
+}
+.username3{
+    overflow: hidden;
+    color: rgb(252, 250, 250);
+    font-size: 2.6rem;
+    font-weight: 700;
+    border-right: 0.15em solid #222222;
+    white-space: nowrap;
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 40px;
+    animation: typing 4s steps(40,end)infinite;
+}
+.form-control{
+    background-color: #a3b8bb;
+}
+
+/* icon section */
+#contacts{
+    background-color: #000;
+}
+.iconCollection{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   ;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+
+    color: rgb(241, 234, 234);
+    font-size: 1.8rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(14, 241, 14));
+}
+.icon:hover .brands{
+    color: rgb(7, 7, 7);
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+
+    
+}
